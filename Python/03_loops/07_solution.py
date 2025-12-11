@@ -1,0 +1,6 @@
+while True:
+    number = int(input("Enter value b/w 1 and 10"))
+    if 1 <= number <= 10:
+        break
+    else:
+        print("Invalid input, try again.")
