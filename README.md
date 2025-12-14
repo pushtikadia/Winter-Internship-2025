@@ -1,122 +1,69 @@
-# Python & Pandas Learning Repository  
-### Winter Internship 2025
+# ❄️ Winter Internship 2025 – Python & Pandas
 
-This repository is a **comprehensive Python and Pandas learning collection** developed during the **Winter Internship 2025**.  
-It contains **core Python programming concepts** along with **structured Pandas tutorials** focused on real-world data manipulation.
+**Winter Internship 2025** is a comprehensive learning repository documenting my journey through **Core Python Programming** and **Data Analysis with Pandas**. It is structured to take learners from fundamental programming concepts to real-world data manipulation and database management.
 
-The repository is designed to take a learner from **Python fundamentals** to **data handling using Pandas**, making it ideal for **beginners, students, and aspiring data professionals**.
+## 📂 Repository Structure
 
----
+The repository is divided into two major learning tracks:
 
-## 📌 Repository Objectives
+### 🔹 Part 1: Core Python Programming
+Focuses on logic building, syntax, and application development.
+* **Fundamentals:** Covers Variables, Conditionals, Loops, and Functions.
+* **Advanced Concepts:** OOP (Object Oriented Programming), Scopes, and Decorators.
+* **Projects:**
+    * **YouTube Manager (File I/O):** A CLI app using `json` to manage video data.
+    * **Database Integrations:** Variations of the manager app using **SQLite3** and **MongoDB** for data persistence.
+    * **API Handling:** Scripts to fetch and process data from public APIs.
 
-- Build strong **Python programming fundamentals**
-- Understand **real-world Python usage**
-- Learn **Pandas for data analysis and manipulation**
-- Practice clean, readable, and structured code
-- Prepare for **internships, interviews, and projects**
-
----
-
-
----
-
-## 🧠 Learning Breakdown (Detailed)
+### 🔹 Part 2: Pandas (Data Analysis)
+Focuses on data manipulation using the Pandas library.
+* **DataFrames:** Creating, inspecting, and managing tabular data.
+* **Series:** Deep dive into 1D array-like structures and broadcasting.
+* **Operations:** Concatenation, Joining/Merging datasets, and handling Categorical data.
 
 ---
 
-## 🔹 PART 1: Core Python Programming
+## 🛠️ Key Projects & Demos
 
-### 📘 Topics Covered
-
-- Python syntax and structure
-- Variables and data types
-- Input and output
-- Conditional statements (`if`, `elif`, `else`)
-- Looping (`for`, `while`)
-- Functions and modular code
-- Lists, tuples, sets, dictionaries
-- File handling (`read`, `write`)
-- Exception handling (`try`, `except`)
-- Basic logic-building problems
-
-### 🎯 What You Learn
-- How Python programs are written and executed
-- How to write clean and readable logic
-- How to handle user input and errors
-- How Python manages data internally
+| Project/Module | Description |
+| :--- | :--- |
+| **YouTube Manager** | A CRUD application allowing users to Add, List, Update, and Delete video records. |
+| **Pandas DataFrame** | Demos on creating DataFrames from dictionaries and lists. |
+| **Data Joining** | Examples of merging datasets (Vertical/Horizontal concatenation). |
 
 ---
 
-## 🔹 PART 2: Pandas (Data Analysis with Python)
+## 🚀 Getting Started
 
-### 🐼 PandaTech – Pandas Learning Module
+To run the examples locally:
 
-This section focuses on **data manipulation and analysis using Pandas**.
-
----
-
-### 📗 01_Pandas DataFrame
-- Creating DataFrames
-- Understanding rows & columns
-- Viewing data (`head()`, `tail()`)
-
----
-
-### 📗 02_Pandas DataFrame Attribute And Methods
-- `shape`, `size`, `columns`
-- `info()`, `describe()`
-- Data inspection techniques
-
----
-
-### 📗 03_Panda Series Attribute Methods
-- Series creation
-- Attributes like `index`, `dtype`
-- Mathematical operations
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/pushtikadia/Winter-Internship-2025.git](https://github.com/pushtikadia/Winter-Internship-2025.git)
+    ```
+2.  **Navigate to the project:**
+    ```bash
+    cd Winter-Internship-2025
+    ```
+3.  **Run a Python script:**
+    ```bash
+    python "Python/08_python_project/youtube_manager.py"
+    ```
+4.  **Run a Pandas demo:**
+    ```bash
+    python "Pandas/01_Pandas DataFrame/Pandas_DataFrame_Demo-1.py"
+    ```
 
 ---
 
-### 📗 04_Pandas Concat DataFrame
-- Combining DataFrames
-- Vertical and horizontal concatenation
-- Index alignment
+## ⚙️ Technologies Used
+
+* **Language:** Python 3
+* **Libraries:** Pandas, JSON, SQLite3, PyMongo, Requests
+* **Tools:** PyCharm, Git
 
 ---
 
-### 📗 05_Pandas Join DataFrame
-- Joining datasets
-- Index-based joins
-- Understanding relational data
-
----
-
-### 📗 06_Pandas Series
-- Series deep dive
-- Indexing and broadcasting
-- Data alignment behavior
-
----
-
-### 📗 07_Pandas Combine Series
-- Combining multiple Series
-- Handling missing values
-- Real-world dataset behavior
-
----
-
-### 📗 08_Pandas Categorical Data
-- Category data type
-- Memory optimization
-- Performance benefits
-- When and why to use categorical data
-
----
-
-## 🛠️ Technologies Used
-
-- **Python 3**
-- **Pandas**
-- Standard Python Libraries
-
----
+<p align="center">
+  <b>Winter Internship 2025</b> • Created by <a href="https://github.com/pushtikadia"><b>Pushti Kadia</b></a>
+</p>
