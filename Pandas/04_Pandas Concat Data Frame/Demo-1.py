@@ -23,4 +23,3 @@ resDF = pd.concat([dataFrame1, dataFrame2])
 
 print("\nConcatenating DataFrames =\n", resDF)
 
-
