@@ -12,3 +12,5 @@ print("Series (with custom index labels): \n", s)
 # Return the summary of the series
 
 print("\nSeries Summary:\n", s.info())
+
+
