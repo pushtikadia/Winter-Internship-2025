@@ -15,3 +15,5 @@ print("Series: \n", s)
 print("\nDoes the Series has NaN? ", s.hasnans)
 
 
+
+
