@@ -13,4 +13,3 @@ print("Series (with custom index labels): \n", s)
 
 print("\nValue from a 06_Pandas Series with label RowD: ", s["RowD"])
 
-
