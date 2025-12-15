@@ -10,4 +10,6 @@ s = pd.Series(data)
 print("Series: \n", s)
 
 # Access a value
+
 print("\nValue from a 06_Pandas Series: ", s[2])
+
