@@ -10,4 +10,5 @@ s = pd.Series(data, index=["RowA", "RowB", "RowC", "RowD", "RowE", "RowF", "RowG
 print("Series (with custom index labels): \n", s)
 
 # Return the summary of the series
+
 print("\nSeries Summary:\n", s.info())
