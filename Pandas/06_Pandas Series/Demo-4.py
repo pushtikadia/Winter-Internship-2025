@@ -12,3 +12,5 @@ print("Series (with custom index labels): \n", s)
 # Access a value referring the lable
 
 print("\nValue from a 06_Pandas Series with label RowD: ", s["RowD"])
+
+
