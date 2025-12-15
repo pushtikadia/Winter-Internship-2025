@@ -13,4 +13,3 @@ print("Series (with custom index labels): \n", s)
 
 print("\nSeries Summary:\n", s.info())
 
-
