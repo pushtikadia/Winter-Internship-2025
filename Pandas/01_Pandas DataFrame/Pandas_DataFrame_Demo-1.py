@@ -9,4 +9,6 @@ data = {
 
 df = pd.DataFrame(data)
 
+
 print("Student ecords\n\n", df)
+
