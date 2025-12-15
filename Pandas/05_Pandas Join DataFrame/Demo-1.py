@@ -19,4 +19,7 @@ print("\nDataFrame2 =\n", dataFrame2)
 
 # Join two DataFrames
 resDF = dataFrame1.join(dataFrame2)
+
 print("\nJoining DataFrames =\n", resDF)
+
+
