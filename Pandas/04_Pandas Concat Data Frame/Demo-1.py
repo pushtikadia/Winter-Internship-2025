@@ -20,4 +20,5 @@ print("\nDataFrame2 =\n", dataFrame2)
 
 # Concatenating two DataFrames
 resDF = pd.concat([dataFrame1, dataFrame2])
+
 print("\nConcatenating DataFrames =\n", resDF)
