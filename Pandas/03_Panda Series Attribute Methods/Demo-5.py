@@ -11,4 +11,5 @@ s = pd.Series(data)
 print("Series: \n", s)
 
 # Check whether the Series has NaNs
+
 print("\nDoes the Series has NaN? ", s.hasnans)
